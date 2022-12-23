@@ -1,0 +1,30 @@
+    *{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(213, 142, 189);
+    background-image: url(./img/joirney.jpg);
+    background-attachment: fixed;
+}
+.box{
+    width: 500px;
+    min-height: 500px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    font-family:'David Libre', serif;
+    border-radius: 100%;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+    :hover .box{
+        transform: rotate(360deg);
+        transition: 3s all;
+        background-color: rgb(42, 165, 101);
+    
+    }
